@@ -31,3 +31,14 @@
 何為資料型態? 資料型態就是指，文字(str or string)、整數(int or integer)、浮點數(float)(小數)、布林值(boolean or bool)等  
 什麼是布林值(boolean)? 布林值很簡單，其實就是"是否"，比如說一個布林值可以是true(是)或false(否)
 
+---
+
+### 第五幕
+#### [背景](https://pimylifeup.com/wp-content/uploads/2019/11/variables-in-python-thumbnail-nowm.jpg)
+# Python的變數
+什麼是變數? 變數就是把一個資料存在一個指定的詞裡，例如我把1存到x裡，下次我要用到1的時候就可以打x   
+如何定義變數? 要定義一個變數只需打 [名稱] = [資料] 如: x = 1   
+如何定義文字變數? 同樣的，用 [名稱] = [資料]，但是資料一定要用""作為開頭、結尾 如: x = "文字"
+
+---
+
