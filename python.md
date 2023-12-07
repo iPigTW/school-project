@@ -37,8 +37,45 @@
 #### [背景](https://pimylifeup.com/wp-content/uploads/2019/11/variables-in-python-thumbnail-nowm.jpg)
 # Python的變數
 什麼是變數? 變數就是把一個資料存在一個指定的詞裡，例如我把1存到x裡，下次我要用到1的時候就可以打x   
-如何定義變數? 要定義一個變數只需打 [名稱] = [資料] 如: x = 1   
-如何定義文字變數? 同樣的，用 [名稱] = [資料]，但是資料一定要用""作為開頭、結尾 如: x = "文字"
+如何定義變數? 要定義一個變數只需打 [名稱] = [資料] 如: `x = 1`     
+如何定義文字變數? 同樣的，用 [名稱] = [資料]，但是資料一定要用""作為開頭、結尾 如: `x = "文字"`
 
 ---
 
+### 第六幕
+#### [背景](https://github.com/iPigTW/school-project/blob/main/bg3.png?raw=true)
+# 如何輸出Hello World
+每個程式設計師第一個程式都是Hello World，今天我們要在Python裡做出來。   
+首先新創個檔案，後面要加.py。然後在裡面輸入`print("Hello World")`   
+解釋: print這個函數(function)會在終端機裡顯示出你叫他說的東西
+
+---
+
+### 第七幕
+#### [背景](https://miro.medium.com/v2/resize:fit:1400/1*MGV0wog7EzunCowymzE3Xg.png)
+# If聲明
+什麼是if聲明? if就是指"如果"，比如說，我想要讓程式確認x是不是1，我就可以寫   
+```
+if x == 1:
+    print("x是1")
+```
+至於為什麼要用==而不是=呢? 是因為=是用來定義變數的，==是用來檢查條件是否成立的。   
+而且有注意到嗎? 第二行我空了好幾格，這是因為Python規定在:後換行都要有空一格以上。   
+我們還可以在後面加上else，也就是"不然"，例如   
+```
+if x == 1:
+    print("x是1")
+else:
+    print("x不是1")
+```
+或是加上elif，也就是"不然如果是(else if)"的縮寫，例如   
+```
+if x == 1:
+    print("x是1")
+elif x == 2:
+    print("x是2")
+else:
+    print("x不是1")
+```
+
+---
