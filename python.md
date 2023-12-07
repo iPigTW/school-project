@@ -29,5 +29,5 @@
 #### [背景](https://media.geeksforgeeks.org/wp-content/uploads/20191023173512/Python-data-structure.jpg)
 # Python的資料型態
 何為資料型態? 資料型態就是指，文字(str or string)、整數(int or integer)、浮點數(float)(小數)、布林值(boolean or bool)等  
-什麼是布林值(boolean)? 布林值很簡單，其實就是"是否" 比如說一個布林值可以是true(是)或false(否)
+什麼是布林值(boolean)? 布林值很簡單，其實就是"是否"，比如說一個布林值可以是true(是)或false(否)
 
