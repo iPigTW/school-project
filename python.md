@@ -79,3 +79,30 @@ else:
 ```
 
 ---
+
+### 第八幕
+#### [背景](https://blog.enterprisedna.co/wp-content/uploads/2023/05/461cc8b9-247b-440a-8d26-1dc4e9d641c2-1.png)
+# 迴圈
+什麼是迴圈? 迴圈就是指一直重複做某件事。   
+迴圈有哪幾種? 在Python中有兩種迴圈，一個是for迴圈，一個是while迴圈。   
+這兩種有什麼差別? while迴圈就是如果條件成立，就重複做某件事，for迴圈就是在一個列表裡面把物件全部丟在一個變數裡。   
+這樣說你們應該聽不懂，我直接演示下   
+while迴圈   
+```
+while x < y:
+    print("hi")
+```
+for迴圈   
+```
+for i in range(100):
+    print(i) 
+
+```
+註: 上面的range(100)是把0-99全部丟到一個列表裡
+
+---
+
+### 第九幕(最後)
+#### [背景](https://images7.alphacoders.com/122/1228014.png)
+# 結尾
+報告結束! 謝謝大家 :D
